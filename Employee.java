@@ -1,6 +1,6 @@
 package JavaCoding;
 
-class Employee {
+public class Employee {
     private String firstName;
     private String lastName;
     private double monthlySalary;
@@ -49,10 +49,8 @@ class Employee {
     public double getYearlySalary() {
         return monthlySalary * 12;
     }
-}
 
-// Test Class
-public class Main {
+    // Main method (Test Application)
     public static void main(String[] args) {
 
         Employee e1 = new Employee("Rahul", "Patil", 20000);
